@@ -53,6 +53,8 @@ namespace s16985_kol_apbd.Controllers
                     MusicianTracks = tracks
                 };
 
+                _context.SaveChanges();
+
                 return Ok(response);
             }
             catch (ArgumentNullException exc)
