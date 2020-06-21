@@ -11,7 +11,7 @@ namespace s16985_kol_apbd.DTOs.Request
 		public string FirstName { get; set; }
 		public string LastName { get; set; }
 		public string NickName { get; set; }
-		public CreateTrackDtoRequest TrackDTO { get; set; }
+		public CreateTrackDtoRequest TrackDTO = new CreateTrackDtoRequest();
 	}
 
 	public class CreateTrackDtoRequest
